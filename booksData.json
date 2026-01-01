@@ -1,0 +1,182 @@
+[
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Classic",
+    "rating": 4.8,
+    "summary": "A tragic story of love and ambition set in the roaring twenties.",
+    "coverImage": "https://i.ibb.co.com/qM4J8M00/pg64317-cover-medium.jpg",
+    "userEmail": "user1@gmail.com"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Drama",
+    "rating": 4.9,
+    "summary": "A timeless tale about justice, race, and growing up in the South.",
+    "coverImage": "https://i.ibb.co.com/9PYvCNb/2.jpg",
+    "userEmail": "user2@gmail.com"
+  },
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Dystopian",
+    "rating": 4.7,
+    "summary": "A chilling portrayal of a totalitarian society under surveillance.",
+    "coverImage": "https://i.ibb.co.com/ZzDQxQdy/3.webp",
+    "userEmail": "user3@gmail.com"
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": "Fantasy",
+    "rating": 4.9,
+    "summary": "Bilbo Baggins embarks on an unexpected adventure filled with magic.",
+    "coverImage": "https://i.ibb.co.com/4w7yrjtH/4.jpg",
+    "userEmail": "user4@gmail.com"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": "Romance",
+    "rating": 4.6,
+    "summary": "A witty and romantic tale of love and societal expectations.",
+    "coverImage": "https://i.ibb.co.com/Df9wg1WW/5.jpg",
+    "userEmail": "user5@gmail.com"
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Adventure",
+    "rating": 4.8,
+    "summary": "A young shepherd’s journey to find his personal legend.",
+    "coverImage": "https://i.ibb.co.com/YGxPj5M/6.jpg",
+    "userEmail": "user6@gmail.com"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "genre": "Fiction",
+    "rating": 4.5,
+    "summary": "A rebellious teenager’s perspective on the adult world.",
+    "coverImage": "https://i.ibb.co.com/bgKjWfJ6/00000005107.jpg",
+    "userEmail": "user7@gmail.com"
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "genre": "Science Fiction",
+    "rating": 4.6,
+    "summary": "A futuristic society built on technology, control, and pleasure.",
+    "coverImage": "https://i.ibb.co.com/Fb5KsxVC/8.webp",
+    "userEmail": "user8@gmail.com"
+  },
+  {
+    "title": "The Little Prince",
+    "author": "Antoine de Saint-Exupéry",
+    "genre": "Children’s Literature",
+    "rating": 4.9,
+    "summary": "A poetic story about love, loneliness, and the human heart.",
+    "coverImage": "https://i.ibb.co.com/0Rq76T6F/9.jpg",
+    "userEmail": "user9@gmail.com"
+  },
+  {
+    "title": "Harry Potter and the Sorcerer’s Stone",
+    "author": "J.K. Rowling",
+    "genre": "Fantasy",
+    "rating": 5.0,
+    "summary": "The beginning of a magical adventure at Hogwarts.",
+    "coverImage": "https://i.ibb.co.com/TqvFcxgC/10.jpg",
+    "userEmail": "user10@gmail.com"
+  },
+  {
+    "title": "The Fault in Our Stars",
+    "author": "John Green",
+    "genre": "Romance",
+    "rating": 4.7,
+    "summary": "A heartwarming and heartbreaking story of young love and loss.",
+    "coverImage": "https://i.ibb.co.com/z9X1NKr/The-Fault-in-Our-Stars.jpg",
+    "userEmail": "user11@gmail.com"
+  },
+  {
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "genre": "Adventure",
+    "rating": 4.8,
+    "summary": "A thrilling tale of survival and rebellion in a dystopian world.",
+    "coverImage": "https://i.ibb.co.com/0RkFQTmH/The-Hunger-Games.jpg",
+    "userEmail": "user12@gmail.com"
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "Self-Help",
+    "rating": 4.9,
+    "summary": "A practical guide to building good habits and breaking bad ones.",
+    "coverImage": "https://i.ibb.co.com/3Y09Nzgx/637ef46632eb4.webp",
+    "userEmail": "user13@gmail.com"
+  },
+  {
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
+    "genre": "Finance",
+    "rating": 4.7,
+    "summary": "A powerful comparison of two financial mindsets and their outcomes.",
+    "coverImage": "https://i.ibb.co.com/3KwxspZ/204dd177bb2ae5199d16ddb0ffa22139.jpg",
+    "userEmail": "user14@gmail.com"
+  },
+  {
+    "title": "Think and Grow Rich",
+    "author": "Napoleon Hill",
+    "genre": "Motivational",
+    "rating": 4.6,
+    "summary": "A timeless classic on mindset and success principles.",
+    "coverImage": "https://i.ibb.co.com/6RrCbhjL/ol.jpg",
+    "userEmail": "user15@gmail.com"
+  },
+  {
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "genre": "Self-Help",
+    "rating": 4.5,
+    "summary": "A brutally honest approach to living a good life.",
+    "coverImage": "https://i.ibb.co.com/ksVDVTmP/lk.webp",
+    "userEmail": "user16@gmail.com"
+  },
+  {
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "genre": "Finance",
+    "rating": 4.8,
+    "summary": "Understanding the human side of money and wealth building.",
+    "coverImage": "https://i.ibb.co.com/BV3GqRh3/71-Neu6f-X16-L-UF894-1000-QL80.jpg",
+    "userEmail": "user17@gmail.com"
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "genre": "History",
+    "rating": 4.9,
+    "summary": "An exploration of humanity’s evolution and progress.",
+    "coverImage": "https://i.ibb.co.com/1f3VkpCV/470.webp",
+    "userEmail": "user18@gmail.com"
+  },
+  {
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "genre": "Fantasy",
+    "rating": 4.6,
+    "summary": "A woman discovers alternate lives she could have lived.",
+    "coverImage": "https://i.ibb.co.com/gMFmF1cb/9780525559498.webp",
+    "userEmail": "user19@gmail.com"
+  },
+  {
+    "title": "The Power of Now",
+    "author": "Eckhart Tolle",
+    "genre": "Spiritual",
+    "rating": 4.8,
+    "summary": "A guide to mindfulness and living in the present moment.",
+    "coverImage": "https://i.ibb.co.com/zVZDRbHN/43369246.jpg",
+    "userEmail": "user20@gmail.com"
+  }
+]
