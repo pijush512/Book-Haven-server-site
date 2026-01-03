@@ -22,7 +22,7 @@ const client = new MongoClient(uri, {
 });
 
 app.get("/", (req, res) => {
-  res.send("My server is running");
+  res.send("Book Haven is running");
 });
 
 async function run() {
@@ -31,12 +31,26 @@ async function run() {
 
     const usersCollection = client.db("assignmentDb").collection("users");
     const booksCollection = client.db("assignmentDb").collection("books");
-    
-// Users related api
 
+    // Users related Apis
 
+    app.post("/users", async (req, res) => {
+      const user = req.body;
+      const query = { email: user.email };
+      const existingUser = await usersCollection.findOne(query);
+      if (existingUser) {
+        return res.send({ message: "user already exists", insertedId: null });
+      }
+      const result = await usersCollection.insertOne({ ...user, role: "user" });
+      res.send(result);
+    });
 
+    app.get("/users", async (req, res) => {
+      const result = await usersCollection.find().toArray();
+      res.send(result);
+    });
 
+    // Books related Apis
     app.get("/books", async (req, res) => {
       const cursor = booksCollection.find();
       const result = await cursor.toArray();
