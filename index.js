@@ -29,7 +29,13 @@ async function run() {
   try {
     // await client.connect();
 
+    const usersCollection = client.db("assignmentDb").collection("users");
     const booksCollection = client.db("assignmentDb").collection("books");
+    
+// Users related api
+
+
+
 
     app.get("/books", async (req, res) => {
       const cursor = booksCollection.find();
