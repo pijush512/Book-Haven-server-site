@@ -50,6 +50,40 @@ async function run() {
       res.send(result);
     });
 
+    // ইউজার অ্যাডমিন কি না তা চেক করার API
+    app.get("/users/admin/:email", async (req, res) => {
+      const email = req.params.email;
+      const query = { email: email };
+      const user = await usersCollection.findOne(query);
+      let isAdmin = false;
+      if (user) {
+        isAdmin = user?.role === "admin";
+      }
+      res.send({ admin: isAdmin });
+    });
+
+    // ইউজার প্রোফাইল আপডেট করার API
+    app.patch("/users/:email", async (req, res) => {
+      const email = req.params.email;
+      const updatedInfo = req.body; // ফ্রন্টএন্ড থেকে আসা নতুন নাম বা ডাটা
+      const query = { email: email };
+
+      const updateDoc = {
+        $set: {
+          displayName: updatedInfo.name, // ডাটাবেসে displayName হিসেবে সেভ হবে
+        },
+      };
+
+      try {
+        const result = await usersCollection.updateOne(query, updateDoc);
+        res.send({ success: result.modifiedCount > 0 });
+      } catch (error) {
+        res.status(500).send({ success: false, message: error.message });
+      }
+    });
+
+    
+
     // Books related Apis
     app.get("/books", async (req, res) => {
       const cursor = booksCollection.find();
